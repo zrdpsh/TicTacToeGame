@@ -50,7 +50,7 @@ public class TicTacToeClient extends Application
 Вариант в функциональном стиле:
 
 Цепочка объявлений свойств класса TicTacToeClient собрана в отдельном классе GameState 
-c методами updatedTurn, updatedCell, waiting, которые возвращают новый экземпляр этого класса (иммутабельность). 
+c методами updatedTurn, updatedCell, waiting, которые возвращают новый экземпляр этого класса (чистые функции). 
 ```java
 public class TicTacToeClient2 extends Application implements TicTacToeConstants {
 
