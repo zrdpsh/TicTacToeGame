@@ -45,6 +45,7 @@ public class TicTacToeClient extends Application
 
     private void connectToServer() {}
     // the rest of the code
+
 }
 ```
 Вариант в функциональном стиле:
